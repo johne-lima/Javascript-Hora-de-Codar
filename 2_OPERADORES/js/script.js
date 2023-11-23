@@ -83,4 +83,17 @@ console.log(5 < 2 || 5 > 100)
 console.log(!true)
 console.log(!5 < 2)
 
-// 
+// 12 - empty values
+
+console.log(typeof null, typeof undefined)
+console.log(null === undefined)
+console.log(null == undefined)
+console.log (null == false)
+console.log(undefined == false)
+
+// 13 - Mudança de tipos
+
+console.log(5 * null)
+console.log("teste" * "opa")
+console.log("10" + 1)
+console.log("10" - 1)
